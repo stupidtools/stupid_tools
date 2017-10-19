@@ -12,26 +12,26 @@ orig is the orig html as a string.  mod is the modified html as a string.  begin
 so, for example, if we have this
 
 x = """
-<!-- HTML CODE
+```html
 <html>
     <body>
         <h2> Hey </h2>
     </body>
 </html>
--->
-""
+```
+"""
 
 
 and we changed it to
 
 y = """
-<!-- HTML CODE
+```html
 <html>
     <body>
         <h2> {{ stuff }} </h2>
     <body>
 <html> 
--->
+```
 """
 
 
